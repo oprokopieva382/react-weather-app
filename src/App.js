@@ -1,19 +1,24 @@
 import React from "react";
+import Weather from "./Weather";
+
 import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Weater App</h1>
-      <footer>
-        This site was coded by Ksy Fate and is{" "}
-        <a
-          href="https://github.com/oprokopieva382/react-weather-app"
-          target="_blank"
-        >
-          open source
-        </a>
-      </footer>
+      <div className="container">
+        <Weather />
+        <footer>
+          This site was coded by Ksy Fate and is{" "}
+          <a
+            href="https://github.com/oprokopieva382/react-weather-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open-sourced on GitHub
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }
