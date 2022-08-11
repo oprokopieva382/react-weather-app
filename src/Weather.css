@@ -38,10 +38,14 @@
   margin-right: 10px;
 }
 
-.Weather .unit {
+.WeaterTemperature .unit {
   color: rgb(33, 33, 33);
   font-size: 16px;
   font-weight: 400;
   position: relative;
   top: -34px;
+  text-decoration: none;
+}
+.WeaterTemperature .unit a {
+  text-decoration: none;
 }
