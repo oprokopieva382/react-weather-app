@@ -35,7 +35,6 @@
 .Weather canvas {
   margin-top: 5px;
   display: inline-block;
-  margin-right: 10px;
 }
 
 .WeaterTemperature .unit {
@@ -44,8 +43,10 @@
   font-weight: 400;
   position: relative;
   top: -34px;
-  text-decoration: none;
 }
 .WeaterTemperature .unit a {
   text-decoration: none;
+}
+.temperature {
+  margin-left: 10px;
 }
