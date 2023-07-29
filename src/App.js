@@ -19,7 +19,7 @@ export default function App() {
           </a>{" "}
           and{" "}
           <a
-            href="https://cute-chebakia-12cb2b.netlify.app"
+            href="https://my-weather-app-info.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
